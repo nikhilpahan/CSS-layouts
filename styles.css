@@ -5,11 +5,27 @@
 .container{
     border: 4px solid lightgray;
     padding: 24px 24px 0px 24px;
+}
+
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-tiny{
+    width: 30%;
+    height: 50px;
+}
+
+.tiny-wrapper{
     display: flex;
     justify-content: space-between;
 }
 .box{
-    border: 1px solid lightgray;
+    border: 2px solid lightgray;
     margin-bottom: 24px;
 }
 .box-small{
